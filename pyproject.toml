@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eodp-students"
+version = "0.1.0"
+description = "Earth Observation Data Processing Students Package"
+authors = [{name = "Student"}]
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "netCDF4",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+
+[tool.setuptools.package-data]
+auxiliary = ["*.conf", "equalization/*.nc", "isrf/*.nc"]
