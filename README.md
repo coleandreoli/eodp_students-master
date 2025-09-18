@@ -24,10 +24,10 @@ cd eodp_students-master
 pip install -e .
 ```
 
-Alternatively, you can install the requirements directly:
+Alternatively, if you're using Poetry:
 
 ```bash
-pip install -r requirements.txt
+poetry install
 ```
 
 ### Dependencies
