@@ -14,7 +14,7 @@ EODP main repository
 1. Clone the repository:
 
 ```bash
-git clone git@github.com:coleandreoli/eodp_students.git
+git clone git@github.com:coleandreoli/eodp_students-master.git
 cd eodp_students-master
 ```
 
